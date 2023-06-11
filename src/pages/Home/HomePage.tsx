@@ -1,5 +1,5 @@
 import { Header, Gallery, Features, Footer, Home, Realtors, Sidebar, Story, ErrorPage } from "../../components";
-import React, { useState } from "react";
+import { useState } from "react";
 
 const HomePage = () => {
   const [error, setErorr] = useState<string | null>(null);

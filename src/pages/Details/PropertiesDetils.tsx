@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { ErrorPage, Sidebar } from "../../components";
 import './PropertiesDetils.scss'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -35,9 +35,8 @@ const PropertiesDetils = () => {
   };
   const url = 'https://bayut.p.rapidapi.com/properties/detail';
 
-  const { data_details, data, isLoading: fetchIsLoading, error } = useFetch(params, url);
+  const { data_details,  isLoading: fetchIsLoading, error } = useFetch(params, url);
   
-  console.log(2*2);
 
 
   const handleMove = (direction: string) => {

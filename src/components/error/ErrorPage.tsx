@@ -1,6 +1,4 @@
-import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faWifi } from '@fortawesome/free-solid-svg-icons';
+
 import './error.scss'
 import Erorrimg from '../../assets/error.gif'
 const ErrorPage = () => {

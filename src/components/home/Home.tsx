@@ -25,6 +25,7 @@ const Home = ({setErorr}:HomeProps) => {
 
     const handleChange = (event: React.ChangeEvent<unknown>, value: number) => {
         setPageNumber(value);
+        console.log(event);
     };
    
     return (
