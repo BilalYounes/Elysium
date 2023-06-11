@@ -1,0 +1,46 @@
+.error-page {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .content {
+    text-align: center;
+  }
+  .imgContiner{
+    height: 20rem;
+  }
+  .gif {
+    height: 100%;
+    // width: 100%;
+  }
+  .wifi-icon {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+  
+  @media (max-width: 50em) {
+    .wifi-icon {
+      font-size: 3rem;
+    }
+  }
+  
+  @media (max-width: 37.5px) {
+    .wifi-icon {
+      font-size: 2rem;
+    }
+  }
+  .content>p{
+    font-size: 1.6rem;
+  }
+  

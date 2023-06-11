@@ -1,0 +1,23 @@
+.home{
+    grid-column: center-start/center-end;
+    margin: 15rem 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-gap: 10rem;
+       
+    &__pagination-continer{
+        grid-column: 1/-1;
+    //    grid-row: 3/span 2;
+    // justify-self: end;
+        margin-top: 3rem;
+        display: flex;
+        justify-content: center;
+        @media only screen and (max-width: 37.5rem) {
+            gap: 5rem;
+        }
+
+    }
+    &__pagination{
+    }
+  
+}
